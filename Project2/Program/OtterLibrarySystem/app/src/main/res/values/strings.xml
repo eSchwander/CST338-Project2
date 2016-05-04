@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Otter Library System</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="create_account">Create Account</string>
+    <string name="place_hold">Place Hold</string>
+    <string name="cancel_hold">Cancel Hold</string>
+    <string name="manage_system">Manage System</string>
+    <string name="enter_name">Enter an account name</string>
+    <string name="enter_password">Enter a password</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="title_activity_place_hold">Place Hold</string>
+    <string name="title_activity_cancel_hold">Cancel Hold</string>
+    <string name="title_activity_manage_system">Manage System</string>
+    <string name="title_activity_admin_login">Admin Login</string>
+    <string name="logless">There are no transactions to report.</string>
+    <string name="login">Login</string>
+    <string name="enter_admin_name">Enter admin name</string>
+    <string name="enter_admin_password">Enter admin password</string>
+    <string name="choose_month">Month</string>
+    <string name="starting_date">Select a starting date and time:</string>
+    <string name="choose_days">Choose a starting day</string>
+    <string name="choose_hour">Choose a starting time</string>
+    <string name="ending_date">Select an ending date and time:</string>
+    <string name="search_for_books">Find Books</string>
+    <string name="choose_a_book">Select a book</string>
+    <string name="choose_year">Choose a year</string>
+    <string name="select_book_textview">Select an available book:</string>
+    <string name="checkout">Checkout</string>
+    <string name="title_activity_user_login">User Login</string>
+    <string name="enter_user_password">Enter your password</string>
+    <string name="enter_user_name">Enter your username</string>
+
+
+    <string-array name="months">
+        <item>Month</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Day</item>
+    </string-array>
+
+    <string-array name="hours">
+        <item>Hour  </item>
+    </string-array>
+
+    <string-array name="minutes">
+        <item>Minute</item>
+    </string-array>
+
+    <string-array name="ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Year</item>
+        <item>2015</item>
+    </string-array>
+
+    <string-array name="books">
+        <item>None Available</item>
+    </string-array>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="slash">/</string>
+    <string name="colon">:</string>
+    <string name="find_books">Find held books</string>
+    <string name="add_new_book">Add New Book</string>
+    <string name="title_activity_add_book">Add Book</string>
+    <string name="book_title">Book Title:</string>
+    <string name="author">Author:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="hourly_fee">Hourly Fee:</string>
+    <string name="enter_title">Enter a title</string>
+    <string name="enter_author">Enter an author</string>
+    <string name="enter_isbn">Enter ISBN</string>
+    <string name="enter_fee">Enter an hourly fee</string>
+    <string name="add">Add Book</string>
+
+
+</resources>

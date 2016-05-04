@@ -1,0 +1,209 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dip"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <TextView android:text="@string/starting_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/start_months"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/months"
+                android:prompt="@string/choose_month" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slash"/>
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/start_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/days"
+                android:prompt="@string/choose_days" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slash"/>
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/start_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/year"
+                android:prompt="@string/choose_year" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/start_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/hours"
+                android:prompt="@string/choose_hour" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"/>
+
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/start_minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/minutes"
+                android:prompt="@string/choose_hour" />
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/start_ampm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/ampm"
+                android:prompt="@string/choose_hour" />
+        </LinearLayout>
+
+
+
+
+        <TextView android:text="@string/ending_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/endingDate" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/end_months"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/months"
+                android:prompt="@string/choose_month" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slash"/>
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/end_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/days"
+                android:prompt="@string/choose_days" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slash"/>
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/end_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/year"
+                android:prompt="@string/choose_year" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/end_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/hours"
+                android:prompt="@string/choose_hour" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"/>
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/end_minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/minutes"
+                android:prompt="@string/choose_hour" />
+
+            <Spinner style="@style/spinner_style"
+                android:id="@+id/end_ampm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/ampm"
+                android:prompt="@string/choose_hour" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_for_books_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_for_books" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_book_textview"/>
+
+
+            <Spinner style="@style/spinner_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/book_spinner"
+                android:entries="@array/books"
+                android:prompt="@string/choose_a_book"/>
+
+            <Button
+                android:id="@+id/checkout_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkout" />
+
+    </LinearLayout>
+</ScrollView>

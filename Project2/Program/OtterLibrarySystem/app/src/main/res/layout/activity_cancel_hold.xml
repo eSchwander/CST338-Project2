@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <EditText
+        android:id="@+id/account_name_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_user_name"
+        />
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_user_password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/user_login_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/find_books" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_book"/>
+
+    <Spinner style="@style/spinner_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_spinner"
+        android:entries="@array/books"
+        android:prompt="@string/choose_a_book"/>
+    <Button
+        android:id="@+id/cancel_hold_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_hold" />
+
+</LinearLayout>
